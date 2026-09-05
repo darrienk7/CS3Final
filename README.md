@@ -5,4 +5,4 @@ Simple infinite rpg rougelike 2d game
 
 inspo from Clicker Heroes
 
-goated school year 🥹 
+goated school year 🥹
