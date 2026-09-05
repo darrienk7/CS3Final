@@ -1,81 +1,30 @@
-# ==========================================
-# Core Java Rules
-# ==========================================
-# Compiled class files
-*.class
-
-# Log files
-*.log
-
-# Package Files (Uncomment if you want to prevent uploading generated artifacts)
-# *.jar
-# *.war
-# *.nar
-# *.ear
-# *.zip
-# *.tar.gz
-# *.rar
-
-# Virtual machine crash logs
-hs_err_pid*
-replay_pid*
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# BlueJ files
-*.ctxt
-
-# ==========================================
-# Build Tools (Keep the ones you use)
-# ==========================================
-
-### Maven ###
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/.maven-wrapper.properties
-
-### Gradle ###
-.gradle
-/build/
-!gradle-wrapper.jar
-.gradletasknamecache
-gradle-app.setting
-
-# ==========================================
-# IDEs and Editors
-# ==========================================
-
 ### IntelliJ IDEA ###
-.idea/
-*.iws
-*.iml
-*.ipr
 out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
 
 ### Eclipse ###
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
+.apt_generated
 .classpath
-.project
-.settings/
-.loadpath
 .factorypath
-.externalToolBuilders/
-*.launch
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-### Visual Studio Code ###
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
 .vscode/
+
+### Mac OS ###
+.DS_Store
